@@ -117,7 +117,6 @@ export const TechIcon = {
   
   CHATGPT:
     "https://img.shields.io/badge/chatGPT-74aa9c?logo=openai&logoColor=white",
-  TYPESCRIPT: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Ftypescript_919832&psig=AOvVaw1vJwF50CxMy9NCljRf84cx&ust=1734849351582000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKD4z8yfuIoDFQAAAAAdAAAAABAE"
 };
 
 export const AppDirectory: Map<number, Tab> = new Map([
@@ -250,8 +249,6 @@ export const WorkData = [
     date: "Dec 2024",
     gitURL: "https://github.com/parthbhanti22",
     techstack: [
-      TechIcon.TYPESCRIPT,
-      TechIcon.NEXTJS,
       TechIcon.REDUX,
       TechIcon.CSS,
       TechIcon.HTML,
@@ -379,10 +376,8 @@ export const WorkData = [
     gitURL: "https://gdg.community.dev/gdg-on-campus-vellore-institute-of-technology-bhopal-india/",
     techstack: [
       TechIcon.NODEJS,
-      TechIcon.NEXTJS,
       TechIcon.GOOGLECLOUDFUNCTIONS,
       TechIcon.FIREBASE,
-      TechIcon.TYPESCRIPT,
       TechIcon.FIGMA,
       TechIcon.CSS,
       TechIcon.JAVASCRIPT,
