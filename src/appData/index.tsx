@@ -264,110 +264,15 @@ export const WorkData = [
     that irritating nudge function. Anyway, I figured out why not present all my works and my digital 
     identity somewhere familiar to me, so here we are, hope you'll enjoy this little project of mine!`,
   },
-  {
-    id: 2,
-    title: "Telegram Bot - SDA Crowd Level Report Generator",
-    date: "Oct - Nov 2022",
-    gitURL: "",
-    techstack: [TechIcon.TELEGRAM, TechIcon.PYTHON],
-    gallery: [],
-    overview: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel`,
-  },
-  {
-    id: 3,
-    title: "Telegram Bot - Digital Goods Management System",
-    date: "Oct 2022 - Present",
-    gitURL: "",
-    techstack: [TechIcon.TELEGRAM, TechIcon.PYTHON, TechIcon.GOOGLECLOUD],
-    gallery: [MS, MS2],
-    overview: `I have developed a cloud inventory management system on gCloud with a Telegram bot 
-    interface to help manage my online software distribution business. The system is able to retrieve,
-    restock, validate and deliver digital goods to my customers. This system has helped me to automate
-    crucial portions of my business processes and save me a lot of time and effort while also reducing
-    the delivery time of my products. To date, this system has helped me to fulfil over 1000+ orders`,
-  },
-  {
-    id: 4,
-    title: "Audio Visual System BASYS3 FPGA",
-    date: "Oct - Nov 2022",
-    gitURL: "https://github.com/firwer/EE2026-FPGA-Project",
-    techstack: [TechIcon.VERILOG, TechIcon.PYTHON],
-    gallery: [
-      ee2026_5,
-      ee2026_1,
-      ee2026_2,
-      ee2026_3,
-      ee2026_4,
-      ee2026_6,
-      ee2026_7,
-    ],
-    overview: `In my EE2026 Digital Design Class, my partner and I collaborated on an Audio Visual System 
-    project that encompassed both individual and team components. Our team's contribution consisted of an 
-    interactive mouse-based drawing tool, complete with a canvas, color palette changer, rectangle drawing 
-    tool, and brush size selection. For my individual role, I developed a P-Mod OLED digital stopwatch timer 
-    with lap timing functionality and a whistle-based start/stop feature, powered by the Pmod MIC3. 
-    Our project was one of the top performing projects in our cohort.`,
-  },
-  {
-    id: 5,
-    title: "MagnusStock - Java-Based CLI Inventory Management System",
-    date: "Feb 2023",
-    gitURL: "https://github.com/firwer/tp",
-    techstack: [TechIcon.JAVA],
-    gallery: [cs2113_1, cs2113_2],
-    overview: `As part of a collaborative course project, we have developed a Java-based CLI inventory management 
-    system called "Magnus Stock" that can perform CRUD operations on inventory items, generate history reports, 
-    and read/write inventory data in CSV format.Throughout this project, we gained valuable experience in crafting
-    comprehensive user and developer guides using Markdown, complemented by the inclusion of UML Diagrams for 
-    clarity. From the technical standpoint, our team demonstrated our ability to write clean, functional, and 
-    well-tested JUnit code that is able to handle exceptions and edge cases.`,
-  },
-  {
-    id: 6,
-    title: "CG2111A - Alex Search & Rescue Lidar Robot Project",
-    date: "Feb 2023",
-    gitURL: "https://github.com/firwer/CG2111A-Alex-Lidar-Project",
-    techstack: [
-      TechIcon.CPP,
-      TechIcon.ROS,
-      TechIcon.ARDUINO,
-      TechIcon.RASPBERRYPI,
-    ],
-    gallery: [cg1_2, cg2_2, cg3_2, cg4_2, cg5_2, cg6_2],
-    overview: `We created a robot, named Alex, that is intended to be a “search and rescue” robot that
-      can be piloted around remotely in an unknown environment. Its role is to serve as an 
-      “eye” of the user and provide real-time information on the environment to the user to
-      allow him/her to navigate the whole terrain and draw a detailed map of the environment.\n
-      The robot is equipped with a LIDAR device to map the said unknown environment. The user would 
-      then be able to send movement commands to Alex and receive environment information (the angle 
-      and distance to the nearest obstacle in any particular direction) back to the user.\n
-      Through this project, I have learnt how to integrate Lidar, Arduino, Raspberry Pi and ROS into
-      a single operational vehicle and most importantly, how to write baremetal code and deal with USART 
-      communication between our Compuer, Arduino and Raspberry Pi.`,
-  },
-  {
-    id: 7,
-    title: "CG1111A - mBot Vehicle Maze Navigator",
-    date: "Aug - Nov 2021",
-    gitURL: "",
-    techstack: [TechIcon.CPP, TechIcon.MBOT],
-    gallery: [cg6, cg1, cg2, cg3, cg4, cg5],
-    overview: `Our team and I built an mBot vehicle that is able to navigate through a maze and perform specific 
-      action based on the colour of the ground it is on. The mBot is able to detect the colour of the 
-      ground using a colour sensor and move in different directions with the help of 2 IR sensor and 1 
-      Ultrasonic sensor.`,
-  },
-  {
-    id: 8,
-    title: "EG1311",
-    date: "Aug - Nov 2021",
-    gitURL: "",
-    techstack: [TechIcon.CPP, TechIcon.ARDUINO, TechIcon.AUTOCAD],
-    gallery: [eg_1, eg_2, eg_3, eg_4, eg_5, eg_6],
-    overview: `My team and I built a robot vehicle powered using Arduino and 4 DC motors. Our vehicle is able to 
-      move through a series of incline ramps, stop at a designated point using proximity sensor and fire 
-      a ping-pong ball through a quick-release catapult that was built with a servo-motor.`,
-  },
+  
+  
+  
+   
+
+  
+   
+ 
+  
 
   {
     id: 9,
@@ -388,74 +293,10 @@ export const WorkData = [
     together in one single platform. At GDGC, we promote the skill development and well 
     being of each community member.`,
   },
-  {
-    id: 10,
-    title: "DSTA CodeEXP Hackathon 2022 - My Army Pal",
-    date: "Jun 2022",
-    gitURL: "https://github.com/firwer/dstahackathon",
-    techstack: [TechIcon.FLUTTER, TechIcon.FIREBASE],
-    gallery: [dsta_7, dsta_1, dsta_2, dsta_3, dsta_4, dsta_5, dsta_6, dsta_8],
-    overview: `MyArmyPal serves to be an all in one service for our service men. It seeks to provide convenience 
-      and useful features just one tap away. Its main features include an IPPT Calculator, reservist 
-      checklist, customized IPPT training plan according to the user's current fitness level and a canteen 
-      order pick up service in all army camps.`,
-  },
-  {
-    id: 11,
-    title: "GDSC Mercy Relief CMS Portal",
-    date: "Sept 2022 - June 2023",
-    gitURL: "",
-    techstack: [
-      TechIcon.NEXTJS,
-      TechIcon.TYPESCRIPT,
-      TechIcon.MONGODB,
-      TechIcon.MATERIALUI,
-      TechIcon.CSS,
-    ],
-    gallery: [mr1, mr2],
-    overview: `I have worked as a frontend software developer for Google's Developer Student Club. Our team project aims to
-    build a new CMS portal for Mercy Relief, a non-profit organization that supports disaster relief efforts
-    worldwide. The newly revamped CMS portal aims to provide a more user-friendly interface for the Mercy Relief 
-    team to manage their global campaigns, press release articles, and donation drives. Some areas I have contributed
-    but not limited to are the frontend development of the campaign creation page that consist of TinyMCE WYSIWYG 
-    editor, DragnDrop image upload, and API Integration with our backend.`,
-  },
-  {
-    id: 12,
-    title: "Super Canvas Chrome Extension",
-    date: "Apr 2023 - Jul 2023",
-    gitURL: "https://github.com/firwer/supercanvas",
-    techstack: [
-      TechIcon.TYPESCRIPT,
-      TechIcon.WEBPACK,
-      TechIcon.MATERIALUI,
-      TechIcon.CSS,
-    ],
-    gallery: [sc_1, sc_2, sc_3],
-    overview: `Super Canvas is a Chrome Extension with over 200 active users, designed to improve the student 
-    experience and productivity on Canvas LMS. It provides valuable features like file preview, search, and 
-    instant download, along with an automatic deadline tracker for a better grasp of upcoming deadlines.`,
-  },
-  {
-    id: 13,
-    title: "InternWiz - Startup Internship Portal (WIP)",
-    date: "May 2023 - Present",
-    gitURL: "https://github.com/firwer/internwiz",
-    techstack: [
-      TechIcon.NEXTJS,
-      TechIcon.TYPESCRIPT,
-      TechIcon.SUPABASE,
-      TechIcon.CHATGPT,
-    ],
-    gallery: [],
-    overview: `InternWiz is a carefully curated platform that offers a seamless experience, enabling students 
-    to embark on their dream internship journey with ease. The platform features an infinitely scrolling 
-    dashboard that offers over 4000+ up-to-date startups. Users have the flexibility to refine their search 
-    based on parameters like startup size, industry, and funding stage. Users can conveniently add their 
-    preferred startups to your profile and when they are ready to apply, users can easily generate a 
-    personalized cold-email using generative AI. The email is tailored to details from the uploaded resume, 
-    as well as essential information such as the user's major, year of study, and preferred internship role.`,
-  },
+  
+  
+  
+ 
 ] as WorkContent[];
 
 export const WorkAccordionContent = [
