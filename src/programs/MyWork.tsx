@@ -89,10 +89,9 @@ const MyWork = ({ id }: Props) => {
       <div className={styles.rightpanel}>
         {currDisplay.title === "" ? (
           <div className={styles.body}>
-            <h4>Welcome To My Portfolio Section</h4>
+            <h4>WELCOME TO MY PORTFOLIO</h4>
             <h5>
-              Begin Navigation by clicking on one of my projects on the left
-              panel
+              Start exploring my works on the left Panel!
             </h5>
             <h5>These are some of the tech stacks I have experiences with!</h5>
             <div className={styles.content_tech}>

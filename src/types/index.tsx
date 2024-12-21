@@ -40,7 +40,7 @@ export enum App {
 export enum WorkType {
   PERSONAL = "Personal Projects",
   SCHOOL = "School Projects",
-  HACKATHON = "Hackathons",
+  HACKATHON = "Clubs",
 }
 
 export type WorkFile = {

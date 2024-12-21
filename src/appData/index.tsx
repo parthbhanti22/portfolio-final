@@ -76,14 +76,10 @@ import col4 from "../../assets/gallery/3.jpg";
 import col5 from "../../assets/gallery/4.jpg";
 import col6 from "../../assets/gallery/5.jpg";
 export const TechIcon = {
-  REACT:
-    "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
-  NEXTJS:
-    "https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white",
+  
   FIREBASE:
     "https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase",
-  TYPESCRIPT:
-    "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white",
+  
   FIGMA:
     "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white",
   NODEJS:
@@ -93,21 +89,18 @@ export const TechIcon = {
   JAVA: "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white",
   FLUTTER:
     "https://img.shields.io/badge/flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white",
-  VERILOG:
-    "https://img.shields.io/badge/Verilog-%23F7DF1E.svg?style=for-the-badge&logo=verilog&logoColor=rgb(142%2C0%2C39)",
+  
   PYTHON:
     "https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white",
   C: "https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white",
   CPP: "https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&ogoColor=white",
-  ROS: "https://img.shields.io/badge/ROS-%23000000.svg?style=for-the-badge&logo=ros&logoColor=white",
   ARDUINO:
     "https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white",
   HTML: "https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
   CSS: "https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white",
   JAVASCRIPT:
     "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
-  RASPBERRYPI:
-    "https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi",
+  
   REDUX:
     "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white",
   MATERIALUI:
@@ -117,16 +110,11 @@ export const TechIcon = {
   MBOT: "https://img.shields.io/badge/Makeblock-FF7F00?style=for-the-badge&logo=makeblock&logoColor=white",
   GOOGLECLOUD:
     "https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white",
-  MONGODB:
-    "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+  
   TELEGRAM:
     "https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white",
-  VUEJS:
-    "https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D",
-  WEBPACK:
-    "https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=white",
-  SUPABASE:
-    "https://img.shields.io/badge/Supabase-1E2E3B?style=for-the-badge&logo=supabase&logoColor=white",
+  
+  
   CHATGPT:
     "https://img.shields.io/badge/chatGPT-74aa9c?logo=openai&logoColor=white",
 };
@@ -257,9 +245,9 @@ export const GalleryAccordionTitles = ["Details"];
 export const WorkData = [
   {
     id: 1,
-    title: "Windows XP Personalized Website",
-    date: "Jan 2023 - Feb 2023",
-    gitURL: "https://github.com/firwer/winxpsite",
+    title: "Windows XP Themed Portfolio",
+    date: "Dec 2024",
+    gitURL: "https://github.com/parthbhanti22",
     techstack: [
       TechIcon.TYPESCRIPT,
       TechIcon.NEXTJS,
@@ -385,9 +373,9 @@ export const WorkData = [
 
   {
     id: 9,
-    title: "GDSC Hack4Good 2023 - InclusionLab Web Platform",
+    title: "Non Technical Co-Lead and Student Coordinator at GDGC 2024-25",
     date: "Feb 2023",
-    gitURL: "https://github.com/firwer/h4g-hackathon",
+    gitURL: "https://gdg.community.dev/gdg-on-campus-vellore-institute-of-technology-bhopal-india/",
     techstack: [
       TechIcon.NODEJS,
       TechIcon.NEXTJS,
@@ -400,9 +388,9 @@ export const WorkData = [
       TechIcon.HTML,
     ],
     gallery: [hfg_7, hfg_1, hfg_2, hfg_3, hfg_5, hfg_6],
-    overview: `InclusionLab aims to help companies to improve the accessibility of their websites for persons 
-      with disabilities. We provide a platform where PWDs can conduct easy & clear accessibility testing 
-      and also an automated accessibility testing tool powered by Axe-Core to maximise testing outcome`,
+    overview: `GDGC is a worldwide student community to bring like minded individual
+    together in one single platform. At GDGC, we promote the skill development and well 
+    being of each community member.`,
   },
   {
     id: 10,
@@ -482,7 +470,7 @@ export const WorkAccordionContent = [
     title: "Windows XP Personalized Website",
     content: WorkData[WorkData.findIndex((x) => x.id === 1)],
   },
-  {
+  /*{
     id: 2,
     type: WorkType.PERSONAL,
     icon: emptyfile,
@@ -530,22 +518,16 @@ export const WorkAccordionContent = [
     icon: file,
     title: "EG1311 Design and Make",
     content: WorkData[WorkData.findIndex((x) => x.id === 8)],
-  },
+  },*/
   {
     id: 9,
     type: WorkType.HACKATHON,
     icon: gdsc,
-    title: "GDSC Hack4Good 2023",
+    title: "Google Developer Groups on Campus",
     content: WorkData[WorkData.findIndex((x) => x.id === 9)],
   },
-  {
-    id: 10,
-    type: WorkType.HACKATHON,
-    icon: dsta,
-    title: "DSTA CodeEXP 2022",
-    content: WorkData[WorkData.findIndex((x) => x.id === 10)],
-  },
-  {
+  
+  /*{
     id: 11,
     type: WorkType.SCHOOL,
     icon: mrIcon,
@@ -558,14 +540,8 @@ export const WorkAccordionContent = [
     icon: emptyfile,
     title: "Super Canvas Chrome Extension",
     content: WorkData[WorkData.findIndex((x) => x.id === 12)],
-  },
-  {
-    id: 13,
-    type: WorkType.PERSONAL,
-    icon: emptyfile,
-    title: "InternWiz - Startup Internship Portal",
-    content: WorkData[WorkData.findIndex((x) => x.id === 13)],
-  },
+  },*/
+  
 ] as WorkFile[];
 
 // For My Photography Collection

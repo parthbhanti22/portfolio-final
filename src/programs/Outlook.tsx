@@ -23,7 +23,7 @@ const Outlook = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const API_KEY = process.env.NEXT_PUBLIC_MAILGUN_API;
-  const FROM_EMAIL = "feedback@pohwp.dev";
+  const FROM_EMAIL = "parthbhanti22@gmail.com";
   const TO_EMAIL = process.env.NEXT_PUBLIC_ADMIN_EMAIL;
   const axios = require("axios");
   const captchaRef = React.useRef(null);
@@ -199,7 +199,7 @@ const Outlook = () => {
               disabled
               id="text21"
               type="text"
-              value="Poh Wei Pin (pohwp99@gmail.com)"
+              value="Parth Bhanti (parthbhanti22@gmail.com)"
             />
             <input
               className={styles.textfield}

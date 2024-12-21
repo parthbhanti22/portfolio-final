@@ -18,42 +18,41 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import userprofile from "../../assets/userprofile.jpg";
 import userprofile2 from "../../assets/userprofile2.jpg";
-import ebc1 from "../../assets/ebc1.jpeg";
+import ebc1 from "../../assets/ebc1.jpg";
 import ebc2 from "../../assets/ebc2.jpg";
 
-const INTRO = `Hi, I'm Wei Pin, an aspiring technopreneur based in Singapore. I am 
-  currently a Computer Engineering Sophomore at the National University of Singapore and I am
-  passionate about building innovative software solutions that solves problems.`;
+const INTRO = `Hi, I'm Parth Bhanti, I am a dedicated student with a strong academic track record. Throughout school, I excelled as a top student, 
+particularly in physics, which has always fascinated me. 
+Now, I'm pursuing a Btech in Computer Science and Engineering while maintaining my passion for physics.
+`;
 
-const WHYSITE = `I always love challenging myself to creating something different and interesting.
-The main reason why I chose to create a website that resembles a Windows XP OS is because my 
-software development journey first started back in the early 2010 when I was creating simple utility
-apps such as calculators, web browser, message encrypters, phishing app and simple chatbot using 
-Visual Basic on Visual Studio 2010 out of curiousity and fun. Now that I have more experience in
-software development, I decided to "recreate" the environment I used to work in back then and make
-it feel as though you are accessing my computer directly.`;
+const WHYSITE = `I am always eager to learn and implement things to the best of my abilities.
+I have always loved computers, to the extent that I used to spend all my day on my dad's computer
+doing nothing but exploring. I wasn't much of a programmer while in school. Right now I am pursuing
+Bachelors in technology for Computer Science and Engineering. Since I have been using computers for so long
+One of the best memories I have is with Windows XP, thus, I got the idea of turning my portfolio into a windows xp
+desktop. `;
 
-const INTERESTS = `Other than my interest in developing websites and apps for fun, I love solo
-travelling and exploring new places. It is during these times I get to reflect on my own life and
-step out of my comfort zone to talk to people within the local community and my hostel where I meet
-people from all over the world. Other than that, I am also a firm believer that the best way to 
-learn and grow as a person is to immerse yourself in a different culture and environment. This
-forces you become adaptable to new situations and learn to be more independent and self-reliant.`;
+const INTERESTS = `Other than my interest in developing websites and apps for fun, I love exploring different
+cultures. I haven't been a traveller due to some reasons, but I would very much like to when I get the opportunity.
+Besides all of that, I have a particularly keen interest in Physics, I have loved physics since childhood, I used to 
+wonder about it all day long. And when it was time to finally know more about it, I dived in! Quantum Mechanics and
+Astrophysics have been my main subjects of interest. I am currently exploring more in the STR and String Theory.`;
 
-const INTERESTS2 = `Other than traveling, I love trekking and cycling, and as a challenge to myself, I decided 
-to embark on a journey to the Everest Base Camp. After a 130KM, 2504M grueling vertical ascend from 
-Tenzing-Hillary Airport, widely regarded as some of the world’s most dangerous airports, I made it 
-with a friend of mine and our guide. The entire experience was spectacular as I have also met and struck up 
-conversations with trekkers from all walks of life and background, and we all had a common goal 
-of reaching the top of the base camp.`;
+const INTERESTS2 = `I really enjoy watching movies, and they’re one of my favorite ways to relax. My top favorite is The Lord of the Rings 
+because of its amazing story and epic battles. I also love Star Wars, especially the original trilogy and how it creates such an interesting 
+universe with lightsabers, Jedi, and space battles. Christopher Nolan’s movies are another favorite of mine—Inception is incredible with
+ how it explores dreams and layers of reality, and Interstellar blew me away with its ideas about space and time. 
+ I also like movies that are based on real events, like The Imitation Game, which tells the story of Alan Turing and 
+ how he helped crack codes during World War II, and The Social Network, which shows the story behind Facebook. 
+ Marvel movies are fun too, but I enjoy mixing in thought-provoking films with all the action-packed ones.`;
 
-const INTERESTS3 = `Also, I love (really in love with) drone photography and filming! This is my one true passion, as
-the angles I get are much more unique compared to any DSLR/phone camera. The perspectives that
-aerial shots offer are so mesmerizing that it makes you feel like a bird (and this fulfills my 
-desire to be able to fly lol) (You can view some of collection on this website). Lastly, I love 
-to read non-fiction books, especially those that are related to entrepreneurship, biographies, 
-and self-help, as those books usually contain a lot of valuable insights and satiate my curiosity 
-about the lives of others.
+const INTERESTS3 = `I joined the Google Developer Groups (GDG) at my college as a simple team member, eager to learn and contribute.
+ Over time, my enthusiasm and involvement grew, and I took on more responsibilities. Now, I’m proud to be the Non-Technical Co-Lead and 
+ the Student Coordinator of the club. This journey has been an incredible experience, allowing me to develop leadership skills, 
+ collaborate with a great team, and help organize events and initiatives. Alongside my role in the club, I’ve also developed a strong interest 
+ in Machine Learning. I enjoy exploring its potential and learning how it can be applied to solve real-world problems, which aligns well with the 
+ innovative environment of GDGC.
 `;
 
 interface props {
@@ -86,7 +85,7 @@ const Welcome = ({ id }: props) => {
       {!aboutmeView ? (
         <div>
           <h3 className={styles.welcome_text}>
-            Welcome To Wei Pin&apos;s Personal Website
+            Welcome To Parth Bhanti&apos;s Personal Website
           </h3>
           <p className={styles.subtitle}>
             Learn more about me by clicking any of the icons below to get
@@ -106,7 +105,7 @@ const Welcome = ({ id }: props) => {
                 tooltip="My Brain Dump"
                 onClick={() => {
                   window.open(
-                    "https://github.com/firwer",
+                    "https://github.com/parthbhanti22",
                     "_blank",
                     "noreferrer"
                   );
@@ -118,7 +117,7 @@ const Welcome = ({ id }: props) => {
                 tooltip="Connect with me!"
                 onClick={() => {
                   window.open(
-                    "https://www.linkedin.com/in/poh-wei-pin-7b9061183/",
+                    "https://www.linkedin.com/in/parth-bhanti-63791b215/",
                     "_blank",
                     "noreferrer"
                   );
