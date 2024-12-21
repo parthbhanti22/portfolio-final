@@ -117,6 +117,7 @@ export const TechIcon = {
   
   CHATGPT:
     "https://img.shields.io/badge/chatGPT-74aa9c?logo=openai&logoColor=white",
+  TYPESCRIPT: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Ftypescript_919832&psig=AOvVaw1vJwF50CxMy9NCljRf84cx&ust=1734849351582000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKD4z8yfuIoDFQAAAAAdAAAAABAE"
 };
 
 export const AppDirectory: Map<number, Tab> = new Map([
